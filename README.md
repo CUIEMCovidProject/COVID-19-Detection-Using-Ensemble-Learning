@@ -61,10 +61,11 @@ The repository has four directories:
 
 ## Steps to train the model:
     1. Run the TrainModel.py script and the enter the paths.
-    2. The models will saved in the directory.
+    2. The models will be saved in the directory.
     
 ## Check the performance of the ensembling:
-    1. Run Performance.py to get the performance of the ensembler.
+    1. Run Performance.py to get the performance of the ensembler and enter the paths.    
+    2. And the accuracy, confusion matrix will be printed in the console
 
 
 ## Run the GUI Application    
