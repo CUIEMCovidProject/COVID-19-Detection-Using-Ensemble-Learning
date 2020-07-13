@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow as tf 
 
 image_size = 224
-classes = ["COVID_19 +ve","COVID_19 -ve]
+classes = ["COVID_19 +ve","COVID_19 -ve"]
 
 def ensemble(x, weights, models): 
     '''
