@@ -1,9 +1,6 @@
-import tensorflow as tf 
-from tensorflow.keras.applications import VGG19, ResNet50V2, DenseNet201, InceptionResNetV2, InceptionV3, Xception, MobileNetV2
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import LearningRateScheduler, EarlyStopping
-from sklearn.metrics import classification_report,confusion_matrix
+import tensorflow as tf
 import numpy as np
+from Model import *
 
 
 classes = ["COVID_19 +ve","COVID_19 -ve]
