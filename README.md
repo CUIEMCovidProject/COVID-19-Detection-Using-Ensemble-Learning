@@ -32,8 +32,9 @@ The repository has four directories:
     <br><br>
 - GUI Application : This directory contains Desktop Application made using Qt which uses the trained models and ensembling for COVID-19 detection.<br><br>
 ![GUI APP](https://raw.githubusercontent.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/master/Screenshot/python_GqQXhc1Erf.png)<br><br>
-    1. [app.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/app.py) : Main Python application
-    2. [utils.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/utils.py) : Contains utility functions that is used by the application.
+    1. [SavedModels](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/tree/master/GUI%20Application/Saved%20Models) : Contains the trained models
+    2. [app.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/app.py) : Main Python application
+    3. [utils.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/utils.py) : Contains utility functions that is used by the application.
 
 -----
 ## Steps to prepare data:
