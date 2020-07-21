@@ -36,7 +36,7 @@ def predict(input_image):
     input_image = an image
     models = list of models    
     '''
-    weights = [2.6497350299084377, 2.752312005828389, 2.6911957950065704]
+    weights = [0.172,0.601,0.228]
     input_image = input_image/255.0  
     img = input_image.reshape(-1,image_size,image_size,3)    
     model_predictions = []
