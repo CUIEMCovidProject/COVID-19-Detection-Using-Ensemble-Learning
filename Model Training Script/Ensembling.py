@@ -43,15 +43,22 @@ def accuracy(predicted_values, y_truths):
   return acc
 
 
-def gen_weights(x_test, y_test, models):
+def generate_weights(x_val, y_val, models):
     '''
-    returns a list of weights\n
-    x_test -> test images\n
-    y_test -> test labels\n
-    models -> a list of models\n
+    returns a list of weights
     '''
-    weights = []
-    for model in models:        
-        loss = model.evaluate(x_test, y_test)[0]
-        weights.append(1/loss)
+    accuracy = []
+    weights = np.full((1,len(models)), 100.0)
+    for model in models:
+      acc = model.evaluate(x_val, y_val)[1]
+      accuracy.append(100*acc)
+    weights = weights - accuracy
+    weights = weights**2
+    sum = np.sum(weights)
+    weights = weights/sum
+    weights = 1/weights
+    weights = weights**2
+    sum = np.sum(weights)
+    weights = weights/sum
     return weights
+
