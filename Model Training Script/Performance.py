@@ -21,7 +21,7 @@ densenet_model = tf.keras.models.load_model(densenet_path)
 
 models = [densenet_model,resnet_model,inception_model]
 
-w = gen_weights(x_test,y_test,models) #generating weights
+w = generate_weights(x_test,y_test,models)[0] #generating weights
 print("Weights: ", w)
 
 predictions = []
