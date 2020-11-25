@@ -35,6 +35,8 @@ The repository has four directories:
     1. [SavedModels](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/tree/master/GUI%20Application/Saved%20Models) : Contains the trained models
     2. [app.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/app.py) : Main Python application
     3. [utils.py](https://github.com/CUIEMCovidProject/COVID-19-Detection-Using-Ensemble-Learning/blob/master/GUI%20Application/utils.py) : Contains utility functions that is used by the application.
+    
+- K-Fold Cross validation : Contains the notebook for performing 5-fold cross validation & scripts to get the performance metrics like Accuracy, Sensitivity, Specificity, F1-Score & AUC
 
 -----
 ## Steps to prepare data:
